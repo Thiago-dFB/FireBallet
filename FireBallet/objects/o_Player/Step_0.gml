@@ -1,52 +1,47 @@
+//keyboard input
 press_left = keyboard_check(ord("A"))
 press_right = keyboard_check(ord("D"))
 press_up = keyboard_check(ord("W"))
 press_down = keyboard_check(ord("S"))
 
+//axis from keyboard
 xAxis = press_right - press_left
 yAxis = press_down - press_up
 
-//get direction to accelerate
-var xAcc = sign(xAxis*1.5 - sign(xVel))
-var yAcc = sign(yAxis*1.5 - sign(yVel))
-
-var accMagn = 0
-var xAccN = 0
-var yAccN = 0
-if (xAcc != 0 || yAcc != 0){
-	//get accel vector magnitude
-	accMagn = sqrt(xAcc*xAcc+yAcc*yAcc)
-	//normalize acceleration
-	xAccN = xAcc/accMagn
-	yAccN = yAcc/accMagn
-}
-
-//raw velocity
-var xVelR = xVel + xAccN*accel
-var yVelR = yVel + yAccN*accel
-
-var velMagn = 0
-if (xVelR != 0 || yVelR != 0){
-	//get vel vector magnitude
-	velMagn = sqrt(xVelR*xVelR+yVelR*yVelR)
-	//clip velocity
-	if (velMagn > walkSpeed){
-		xVel = xVelR/(velMagn/walkSpeed)
-		yVel = yVelR/(velMagn/walkSpeed)
+//calculate xVel
+if (xAxis != 0.0) {
+	xVel += accel*xAxis
+	xVel = clamp(xVel, -maxVel, maxVel)
+} else {
+	if (xVel < 0) {
+		xVel += accel
+		if (xVel >= 0) xVel = 0
 	} else {
-		xVel = xVelR
-		yVel = yVelR
+		xVel -= accel
+		if (xVel <= 0) xVel = 0
 	}
 }
-
-if (xAxis == 0 && xVel < 1){
-	xVel = 0
+//calculate yVel
+if (yAxis != 0.0) {
+	yVel += accel*yAxis
+	yVel = clamp(yVel, -maxVel, maxVel)
+} else {
+	if (yVel < 0) {
+		yVel += accel*frict
+		if (yVel >= 0) yVel = 0
+	} else {
+		yVel -= accel*frict
+		if (yVel <= 0) yVel = 0
+	}
 }
-if (yAxis == 0 && yVel < 1){
-	yVel = 0
+//normalize and apply delta
+if (xVel != 0 || yVel != 0){
+	var xVelN = xVel*abs(xVel)/sqrt(xVel*xVel+yVel*yVel)
+	var yVelN = yVel*abs(yVel)/sqrt(xVel*xVel+yVel*yVel)
+	
+	x += xVelN
+	y += yVelN
 }
 
-x += xVel
-y += yVel
-
+//
 image_angle = point_direction(x,y,mouse_x,mouse_y)
