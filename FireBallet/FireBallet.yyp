@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "2e648746-cbf2-46ea-966a-3094869d2eb1",
+            "Value": {
+                "id": "00b0bd51-6c4a-4529-a4d8-ba0daac13882",
+                "resourcePath": "sprites\\s_Dummy_PH\\s_Dummy_PH.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "52e0cce0-73c1-433e-98d1-402d60f0fb12",
             "Value": {
                 "id": "a6ade73e-4c9d-4b3b-907e-a477c42aec2f",
