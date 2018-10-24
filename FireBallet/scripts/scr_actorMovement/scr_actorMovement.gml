@@ -1,27 +1,43 @@
 //calculate xVel
 if (xAxis != 0.0) {
-	xVel += accel*xAxis
-	xVel = clamp(xVel, -maxVel, maxVel)
+	xVel += accel*sign(xAxis)
+	xVel = clamp(xVel, -maxVel*abs(xAxis), maxVel*abs(xAxis))
 } else {
-	if (xVel < 0) {
-		xVel += accel
-		if (xVel >= 0) xVel = 0
+	if (xVel < 0.0) {
+		if (yAxis == 0.0){
+			xVel += accel*frict
+		} else {
+			xVel += accel
+		}
+		if (xVel >= 0.0) xVel = 0.0
 	} else {
-		xVel -= accel
-		if (xVel <= 0) xVel = 0
+		if (yAxis == 0.0){
+			xVel -= accel*frict
+		} else {
+			xVel -= accel
+		}
+		if (xVel <= 0.0) xVel = 0.0
 	}
 }
 //calculate yVel
 if (yAxis != 0.0) {
-	yVel += accel*yAxis
-	yVel = clamp(yVel, -maxVel, maxVel)
+	yVel += accel*sign(yAxis)
+	yVel = clamp(yVel, -maxVel*abs(yAxis), maxVel*abs(yAxis))
 } else {
-	if (yVel < 0) {
-		yVel += accel*frict
-		if (yVel >= 0) yVel = 0
+	if (yVel < 0.0) {
+		if (xAxis == 0.0){
+			yVel += accel*frict
+		} else {
+			yVel += accel
+		}
+		if (yVel >= 0.0) yVel = 0.0
 	} else {
-		yVel -= accel*frict
-		if (yVel <= 0) yVel = 0
+		if (xAxis == 0.0){
+			yVel -= accel*frict
+		} else {
+			yVel -= accel
+		}
+		if (yVel <= 0.0) yVel = 0.0
 	}
 }
 //normalize and apply delta
