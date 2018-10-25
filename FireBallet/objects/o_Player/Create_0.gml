@@ -4,5 +4,5 @@ yAxis = 0.0
 xVel = 0.0
 yVel = 0.0
 maxVel = 5.0
-accel = 0.25
-frict = 1.3
+accel = 0.5
+frict = 0.1

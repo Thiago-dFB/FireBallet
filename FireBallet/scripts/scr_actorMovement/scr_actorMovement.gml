@@ -1,46 +1,28 @@
+var dir = point_direction(0, 0, xAxis, yAxis)
+var currVel = point_distance(0, 0, xVel, yVel)
+
 //calculate xVel
-if (xVel > maxVel || xVel < -maxVel){ //over max speed
-	xVel -= accel*sign(xVel)
-} else if (xAxis != 0.0) { //accelerating
-	if (xAxis/xVel < 0){
-		xVel += 5*accel*sign(xAxis)
+if (xAxis != 0) {
+	if (abs(currVel) >= maxVel){
+		xVel = lerp(xVel, lengthdir_x(maxVel, dir), frict)
 	} else {
-		xVel += accel*sign(xAxis)
+		xVel += lengthdir_x(accel, dir)
 	}
-	xVel = clamp(xVel, -maxVel*abs(xAxis), maxVel*abs(xAxis))
-} else { //stopping
-	if (xVel < 0.0) {
-		xVel += accel*frict
-		if (xVel >= 0.0) xVel = 0.0
-	} else {
-		xVel -= accel*frict
-		if (xVel <= 0.0) xVel = 0.0
-	}
+} else {
+	xVel = lerp(xVel, 0, frict)
 }
+
 //calculate yVel
-if (yVel > maxVel || yVel < -maxVel){ //over max speed
-	yVel -= accel*sign(yVel)
-} else if (yAxis != 0.0) { //accelerating
-	if (yAxis/yVel < 0){
-		yVel += 5*accel*sign(yAxis)
+if (yAxis != 0) {
+	if (abs(currVel) >= maxVel){
+		yVel = lerp(yVel, lengthdir_y(maxVel, dir), frict)
 	} else {
-		yVel += accel*sign(yAxis)
+		yVel += lengthdir_y(accel, dir)
 	}
-	yVel = clamp(yVel, -maxVel*abs(yAxis), maxVel*abs(yAxis))
-} else { //stopping
-	if (yVel < 0.0) {
-		yVel += accel*frict
-		if (yVel >= 0.0) yVel = 0.0
-	} else {
-		yVel -= accel*frict
-		if (yVel <= 0.0) yVel = 0.0
-	}
+} else {
+	yVel = lerp(yVel, 0, frict)
 }
-//normalize and apply delta
-if (xVel != 0 || yVel != 0){
-	var xVelN = xVel*abs(xVel)/sqrt(xVel*xVel+yVel*yVel)
-	var yVelN = yVel*abs(yVel)/sqrt(xVel*xVel+yVel*yVel)
-	
-	x += xVelN
-	y += yVelN
-}
+
+//apply delta
+x += xVel
+y += yVel
