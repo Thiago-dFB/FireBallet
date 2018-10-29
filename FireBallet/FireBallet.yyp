@@ -58,7 +58,7 @@
             "Key": "2e648746-cbf2-46ea-966a-3094869d2eb1",
             "Value": {
                 "id": "00b0bd51-6c4a-4529-a4d8-ba0daac13882",
-                "resourcePath": "sprites\\s_Dummy_PH\\s_Dummy_PH.yy",
+                "resourcePath": "sprites\\spr_Dummy_PH\\spr_Dummy_PH.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -82,7 +82,7 @@
             "Key": "76a5e459-8d63-40d8-ab59-383519ca005c",
             "Value": {
                 "id": "bb788d46-4c7b-43ff-a0aa-f0aa339c5697",
-                "resourcePath": "sprites\\s_Floor_PH\\s_Floor_PH.yy",
+                "resourcePath": "sprites\\spr_Floor_PH\\spr_Floor_PH.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -114,7 +114,7 @@
             "Key": "8c59b49a-52cb-482a-b899-c91d81e19f2a",
             "Value": {
                 "id": "b188eb1b-0f91-4636-8b88-f5c055cdbf9d",
-                "resourcePath": "sprites\\s_Player_PH\\s_Player_PH.yy",
+                "resourcePath": "sprites\\spr_Player_PH\\spr_Player_PH.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -146,7 +146,7 @@
             "Key": "bdcdd095-fd9f-45bb-9051-efbc796010c5",
             "Value": {
                 "id": "82a1fca0-9a7b-451f-a4f6-6c78218404eb",
-                "resourcePath": "tilesets\\t_Floor_PH\\t_Floor_PH.yy",
+                "resourcePath": "tilesets\\tile_Floor_PH\\tile_Floor_PH.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -170,7 +170,7 @@
             "Key": "d3a37dd4-f23b-4dfc-bf4d-3473bb466ffd",
             "Value": {
                 "id": "94cf31eb-6f67-4d91-8a32-3371ec53d52b",
-                "resourcePath": "objects\\o_Player\\o_Player.yy",
+                "resourcePath": "objects\\obj_Player\\obj_Player.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -186,7 +186,7 @@
             "Key": "dcea9e37-5ce7-435d-890c-6bec241206ae",
             "Value": {
                 "id": "d047ae3c-df4b-4a68-af25-caadb051cb59",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\room_Test\\room_Test.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -226,7 +226,7 @@
             "Key": "f8fb5f18-5579-4e18-a5ac-b6d7354bb07c",
             "Value": {
                 "id": "4a7315e4-aa93-4a61-a95d-b62d20b6ddb1",
-                "resourcePath": "objects\\o_Camera\\o_Camera.yy",
+                "resourcePath": "objects\\obj_Camera\\obj_Camera.yy",
                 "resourceType": "GMObject"
             }
         }
