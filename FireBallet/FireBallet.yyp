@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "4b2491a4-950d-43a3-adb9-0d7fd1f698ae",
+            "Value": {
+                "id": "7ccda2c1-0aaf-423c-accc-11502eddc6b2",
+                "resourcePath": "scripts\\scr_actorMovement\\scr_actorMovement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "52e0cce0-73c1-433e-98d1-402d60f0fb12",
             "Value": {
                 "id": "a6ade73e-4c9d-4b3b-907e-a477c42aec2f",
@@ -224,7 +232,7 @@
         }
     ],
     "script_order": [
-        
+        "4b2491a4-950d-43a3-adb9-0d7fd1f698ae"
     ],
     "tutorial": ""
 }
