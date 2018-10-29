@@ -1,6 +1,8 @@
 xAxis = 0.0
 yAxis = 0.0
 
+input = 1
+
 axisTest = true
 
 xVel = 0.0
