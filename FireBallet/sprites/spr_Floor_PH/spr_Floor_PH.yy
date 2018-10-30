@@ -2,7 +2,7 @@
     "id": "76a5e459-8d63-40d8-ab59-383519ca005c",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "s_Floor_PH",
+    "name": "spr_Floor_PH",
     "For3D": false,
     "HTile": false,
     "VTile": false,
