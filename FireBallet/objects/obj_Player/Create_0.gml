@@ -1,5 +1,5 @@
 //obj_Actor
 event_inherited()
 
-input = 0
+input = -1
 axisTest = false

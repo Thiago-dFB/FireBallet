@@ -1,5 +1,5 @@
 cam = view_camera[0]
-follow = obj_Player
+follow = pointer_null
 viewHalfWid = camera_get_view_width(cam) / 2
 viewHalfHei = camera_get_view_height(cam) / 2
 
