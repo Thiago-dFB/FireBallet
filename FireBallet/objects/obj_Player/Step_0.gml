@@ -1,5 +1,4 @@
 switch (input){
-	//case -1:
 	case 0:
 		scr_playerInput_MK()
 		break
@@ -14,11 +13,6 @@ switch (input){
 		yAxis = 0
 		image_angle = 0
 }
-
-
-
-
-
 
 //Room restart
 if (keyboard_check(ord("R"))) game_restart()
