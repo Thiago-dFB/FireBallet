@@ -63,11 +63,11 @@
             }
         },
         {
-            "Key": "4b2491a4-950d-43a3-adb9-0d7fd1f698ae",
+            "Key": "4635096b-4bad-4ff9-b0a1-aa7759dd360e",
             "Value": {
-                "id": "7ccda2c1-0aaf-423c-accc-11502eddc6b2",
-                "resourcePath": "scripts\\scr_actorMovement\\scr_actorMovement.yy",
-                "resourceType": "GMScript"
+                "id": "f7a2e446-3ffa-438d-adc9-f0112eb03f5f",
+                "resourcePath": "objects\\obj_Entity\\obj_Entity.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -256,7 +256,6 @@
         }
     ],
     "script_order": [
-        "4b2491a4-950d-43a3-adb9-0d7fd1f698ae",
         "fb8f529f-44c2-4064-8755-3553622f2aa9",
         "51943f7a-99ca-4447-8da1-82ad044575f2"
     ],
