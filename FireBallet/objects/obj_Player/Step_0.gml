@@ -1,3 +1,4 @@
+event_inherited()
 switch (input){
 	case 0:
 		scr_playerInput_MK()
@@ -12,6 +13,12 @@ switch (input){
 		xAxis = 0
 		yAxis = 0
 		image_angle = 0
+}
+
+if (mouse_check_button(mb_left)){
+	should_fire = true
+} else {
+	should_fire = false
 }
 
 //Room restart
