@@ -33,3 +33,12 @@ if (x > room_width+sprite_width/2) x = -sprite_width/2
 if (x < -sprite_width/2) x = room_width+sprite_width/2
 if (y > room_height+sprite_height/2) y = -sprite_height/2
 if (y < -sprite_height/2) y = room_height+sprite_height/2
+
+//Currently wielding
+if (wielding != noone){
+	with (wielding){
+		x = other.x
+		y = other.y
+		image_angle = other.image_angle
+	}
+}
