@@ -7,3 +7,5 @@ maxVel = 5.0
 accel = 0.5
 
 wielding = noone
+
+wasHit = 0
