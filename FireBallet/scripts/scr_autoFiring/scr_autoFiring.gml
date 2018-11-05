@@ -1,10 +1,10 @@
 if (firing_delay < cooldown){
 	firing_delay = firerate+cooldown;
-	with (instance_create_layer(x, y, "Bullets", firepower)) {
+	var originX = x + lengthdir_x(offset_dist,image_angle)
+	var originY = y + lengthdir_y(offset_dist,image_angle)
+	with (instance_create_layer(originX, originY, "Projectiles", firepower)) {
 		direction = other.image_angle;
 		image_angle = direction;
-		x += lengthdir_x(other.offset_dist,direction)
-		y += lengthdir_y(other.offset_dist,direction)
 		sender = argument0
 	}
 }
