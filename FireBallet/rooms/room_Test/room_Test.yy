@@ -39,7 +39,7 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Bullets",
+            "name": "Projectiles",
             "id": "138be231-fa68-400b-b94c-cf278f985d7f",
             "depth": 100,
             "grid_x": 32,
