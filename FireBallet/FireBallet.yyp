@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "bf437177-210a-49cc-9d1f-66f882354293",
+            "Value": {
+                "id": "6e64153b-4336-4bb8-a2a5-02a6fb3bf7ac",
+                "resourcePath": "objects\\obj_HitscanGun\\obj_HitscanGun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "49faf5d3-40f6-436c-9958-39560afac093",
