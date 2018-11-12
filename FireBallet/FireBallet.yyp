@@ -250,7 +250,7 @@
             "Key": "97adfd80-6876-4ea3-ad48-8d254798f810",
             "Value": {
                 "id": "ebbe5eac-6d83-4fa5-9440-1abf8a0be2d0",
-                "resourcePath": "scripts\\scr_createBullet\\scr_createBullet.yy",
+                "resourcePath": "scripts\\scr_createProjectile\\scr_createProjectile.yy",
                 "resourceType": "GMScript"
             }
         },
