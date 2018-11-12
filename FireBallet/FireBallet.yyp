@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "dc84c2d5-c86b-4810-a370-0ec0a51496d4",
+            "Value": {
+                "id": "a961adf7-538d-44bb-ba21-9979f678105e",
+                "resourcePath": "sprites\\spr_gunFire\\spr_gunFire.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dcea9e37-5ce7-435d-890c-6bec241206ae",
             "Value": {
                 "id": "d047ae3c-df4b-4a68-af25-caadb051cb59",
