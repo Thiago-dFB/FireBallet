@@ -1,11 +1,8 @@
 if (firing_delay < cooldown){
-	image_index = 0;
-	image_speed = spr_gunFire.image_speed;
 	firing_delay = firerate+cooldown;
-	// var originX = x + lengthdir_x(offset_dist,image_angle)
-	// var originY = y + lengthdir_y(offset_dist,image_angle)
+	instance_create_layer(x_firing_pos, y_firing_pos, "Weapons", obj_gunFireAnim);
 	
-	with (instance_create_layer(x, y, "Projectiles", firepower)) {
+	with (instance_create_layer(x_firing_pos, y_firing_pos, "Projectiles", firepower)) {
 		direction = other.image_angle;
 		image_angle = direction;
 		sender = argument0

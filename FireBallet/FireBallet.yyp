@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "97adfd80-6876-4ea3-ad48-8d254798f810",
+            "Value": {
+                "id": "ebbe5eac-6d83-4fa5-9440-1abf8a0be2d0",
+                "resourcePath": "scripts\\scr_createBullet\\scr_createBullet.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a0e69333-be57-446d-80d8-4e6cda27a053",
             "Value": {
                 "id": "381cf7e4-9a88-4048-8798-1f1fc7895ef1",
@@ -292,6 +300,14 @@
                 "id": "49faf5d3-40f6-436c-9958-39560afac093",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ce947882-6059-41a1-9e29-1e933bcc3761",
+            "Value": {
+                "id": "834e01d0-8b3f-40a5-88ee-09735cd2a46e",
+                "resourcePath": "objects\\obj_gunFireAnim\\obj_gunFireAnim.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -428,6 +444,7 @@
         "51943f7a-99ca-4447-8da1-82ad044575f2",
         "52615118-6eed-4ce6-86f8-77f038c3631e",
         "732a26b8-3860-43a2-92a5-485143935cb5",
+        "97adfd80-6876-4ea3-ad48-8d254798f810",
         "11348dae-55ea-4480-a845-40ce4ff1080c"
     ],
     "tutorial": ""
