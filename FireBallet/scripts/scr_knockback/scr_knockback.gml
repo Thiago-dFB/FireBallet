@@ -1,5 +1,6 @@
 var knockbackEntity = argument0;
-var dir = argument1;
-
-knockbackEntity.x += lengthdir_x(-5, dir)
-knockbackEntity.y += lengthdir_y(-5, dir)
+var bullet = argument1;
+bulletDirection = bullet.image_angle
+knockbackSpeed = 5
+knockbackEntity.x += lengthdir_x(knockbackSpeed, bulletDirection)
+knockbackEntity.y += lengthdir_y(knockbackSpeed, bulletDirection)
