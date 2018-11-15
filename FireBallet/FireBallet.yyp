@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "a90c7338-69c9-44c5-aa27-1c35f922cd2d",
+            "Value": {
+                "id": "09cb8305-93c0-451f-859e-cd940a2d0f7d",
+                "resourcePath": "objects\\obj_Shotgun\\obj_Shotgun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bca14afd-8bd5-492c-a456-2fedeff694b5",
             "Value": {
                 "id": "a2d53327-73bb-40d7-9198-c4bd7d7758fa",
