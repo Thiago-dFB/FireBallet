@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "ca70202b-450b-44cc-a607-b2c2867ee68a",
+            "Value": {
+                "id": "3e9c8318-588b-440e-b6de-a6ee3b18952c",
+                "resourcePath": "scripts\\scr_knockback\\scr_knockback.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "49faf5d3-40f6-436c-9958-39560afac093",
@@ -445,6 +453,7 @@
         "52615118-6eed-4ce6-86f8-77f038c3631e",
         "732a26b8-3860-43a2-92a5-485143935cb5",
         "50abc30b-3410-4498-aaf5-775692af45ee",
+        "ca70202b-450b-44cc-a607-b2c2867ee68a",
         "11348dae-55ea-4480-a845-40ce4ff1080c"
     ],
     "tutorial": ""
