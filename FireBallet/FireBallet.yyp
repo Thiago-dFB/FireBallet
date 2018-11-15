@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "50abc30b-3410-4498-aaf5-775692af45ee",
+            "Value": {
+                "id": "e958cd55-b1a1-4ebb-9a7a-527a5692e946",
+                "resourcePath": "scripts\\scr_shotgunDispersal\\scr_shotgunDispersal.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "515d49b0-5fa2-4ee1-aed3-85dcf9729f7d",
             "Value": {
                 "id": "ada46aa7-077e-4559-a450-2d1e1bbd574d",
@@ -268,6 +276,14 @@
                 "id": "1ade0417-6027-43a8-b645-0826bb2c59ac",
                 "resourcePath": "views\\a7bb1c95-3cdb-4fcc-8746-dbdee22a1f66.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a90c7338-69c9-44c5-aa27-1c35f922cd2d",
+            "Value": {
+                "id": "09cb8305-93c0-451f-859e-cd940a2d0f7d",
+                "resourcePath": "objects\\obj_Shotgun\\obj_Shotgun.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -428,6 +444,7 @@
         "51943f7a-99ca-4447-8da1-82ad044575f2",
         "52615118-6eed-4ce6-86f8-77f038c3631e",
         "732a26b8-3860-43a2-92a5-485143935cb5",
+        "50abc30b-3410-4498-aaf5-775692af45ee",
         "11348dae-55ea-4480-a845-40ce4ff1080c"
     ],
     "tutorial": ""

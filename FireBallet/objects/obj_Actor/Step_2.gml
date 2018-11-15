@@ -38,8 +38,10 @@ if (y < -sprite_height/2) y = room_height+sprite_height/2
 if (wielding != noone){
 	//Update position
 	with (wielding){
-		x = other.x
-		y = other.y
+		x = other.x;
+		y = other.y;
+		x_firing_pos = other.x + lengthdir_x(offset_dist, image_angle)
+		y_firing_pos = other.y + lengthdir_y(offset_dist, image_angle)
 		image_angle = other.image_angle
 	}
 	//Should fire
