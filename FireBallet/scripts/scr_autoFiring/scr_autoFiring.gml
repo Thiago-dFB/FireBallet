@@ -1,7 +1,11 @@
 if (firing_delay < cooldown){
 	firing_delay = firerate+cooldown;
-	instance_create_layer(x_firing_pos, y_firing_pos, "Weapons", obj_gunFireAnim);
-	scr_createProjectile(argument0, other.image_angle + 10);
-	scr_createProjectile(argument0, other.image_angle);
-	scr_createProjectile(argument0, other.image_angle - 10);
+	for (var i = 0; i < array_length_1d(proj_dir); i += 1){
+		var dispersal = image_angle + proj_dir[i]
+		with (instance_create_layer(x_firing_pos, y_firing_pos, "Projectiles", firepower)) {
+			sender = argument0;
+			direction = dispersal
+			image_angle = dispersal
+		}
+	}
 }

@@ -4,5 +4,7 @@ offset_dist = 25 //value between sprite's anchor and gun barrel
 firing_delay = 0
 firepower = obj_Bullet
 
-x_fire_pos = noone;
-y_fire_pos = noone;
+proj_dir = scr_shotgunDispersal()
+
+x_firing_pos = 0;
+y_firing_pos = 0;
