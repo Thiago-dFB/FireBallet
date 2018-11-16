@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "99348b86-5693-4842-a300-1060c61b2cf2",
+            "Value": {
+                "id": "e5da6272-7f64-49ab-989e-d18fc4dd4f20",
+                "resourcePath": "sprites\\spr_Shotgun_PH\\spr_Shotgun_PH.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a0e69333-be57-446d-80d8-4e6cda27a053",
             "Value": {
                 "id": "381cf7e4-9a88-4048-8798-1f1fc7895ef1",
@@ -287,6 +295,14 @@
             }
         },
         {
+            "Key": "b579f7fc-5010-4fee-9297-a1852fff13ba",
+            "Value": {
+                "id": "66075fe2-a486-4384-b4a2-cdaae3d74625",
+                "resourcePath": "sprites\\spr_DefGun_PH\\spr_DefGun_PH.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bca14afd-8bd5-492c-a456-2fedeff694b5",
             "Value": {
                 "id": "a2d53327-73bb-40d7-9198-c4bd7d7758fa",
@@ -308,6 +324,14 @@
                 "id": "6e64153b-4336-4bb8-a2a5-02a6fb3bf7ac",
                 "resourcePath": "objects\\obj_HitscanGun\\obj_HitscanGun.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c0688a64-99c8-4a34-af5b-f8530593236a",
+            "Value": {
+                "id": "89a3c50a-aa85-47e1-b90b-d43dbf75caac",
+                "resourcePath": "sprites\\spr_Hitscan_PH\\spr_Hitscan_PH.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -444,6 +468,14 @@
                 "id": "9714d1e9-88b9-4ba4-99cd-0b8980b72f79",
                 "resourcePath": "scripts\\scr_playerInput_MK\\scr_playerInput_MK.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fe73570a-ec8e-40be-9a6f-c6deb4fd3aee",
+            "Value": {
+                "id": "1d70ff7e-252d-467a-8842-22785e085b0c",
+                "resourcePath": "sprites\\spr_Player_PH2\\spr_Player_PH2.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
