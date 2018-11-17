@@ -4,7 +4,7 @@ var coll = collision_line(x,y,destX,destY,obj_Actor,false,false)
 if (coll != noone && coll != sender){
 	with (coll) {
 		scr_wasHit()
-		hp -= other.damage
+		scr_damage()
 		scr_knockback(other.knockback)
 	}
 	instance_destroy();

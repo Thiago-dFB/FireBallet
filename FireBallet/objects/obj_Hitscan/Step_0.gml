@@ -11,7 +11,7 @@ if (shoot_once) {
 			collided = true
 			with (coll){
 				scr_wasHit()
-				hp -= other.damage
+				scr_damage()
 				scr_knockback(other.knockback)
 			}
 		}
