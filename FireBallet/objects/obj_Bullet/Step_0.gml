@@ -5,7 +5,7 @@ if (coll != noone && coll != sender){
 	with (coll) {
 		scr_wasHit()
 		hp -= other.damage
-		scr_knockback(5)
+		scr_knockback(0.5)
 	}
 	instance_destroy();
 }
