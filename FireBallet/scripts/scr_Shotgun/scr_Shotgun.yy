@@ -1,8 +1,8 @@
 {
-    "id": "50abc30b-3410-4498-aaf5-775692af45ee",
+    "id": "82e6714d-a1b7-4c5c-9ce9-662352275a19",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_shotgunDispersal",
+    "name": "scr_Shotgun",
     "IsCompatibility": false,
     "IsDnD": false
 }

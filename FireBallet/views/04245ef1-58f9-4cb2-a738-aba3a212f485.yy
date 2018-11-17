@@ -6,7 +6,8 @@
     "children": [
         "440f5208-1883-49a4-9c93-8a7f9dc6b4d5",
         "a90c7338-69c9-44c5-aa27-1c35f922cd2d",
-        "bf437177-210a-49cc-9d1f-66f882354293"
+        "bf437177-210a-49cc-9d1f-66f882354293",
+        "380b32a3-29e1-49bc-8e2d-e3d3dbe8ec32"
     ],
     "filterType": "GMObject",
     "folderName": "Weapons",
