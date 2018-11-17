@@ -1,13 +1,9 @@
 event_inherited()
 speed = 0
-range = 1000
-var destX = x + lengthdir_x(speed,range)
-var destY = y + lengthdir_y(speed,range)
+alarm[0] = room_speed * 0.1;
 
-var coll = collision_line_first(x,y,destX,destY,obj_Actor,false,false)
-if (coll != noone){
-	with (coll){
-		scr_wasHit()
-		hp -= other.damage
-	}
-}
+destX = x
+destY = y
+shoot_once = true
+range = 20 //number of times the bullet iterates
+knockback = 0.5
