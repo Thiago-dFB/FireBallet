@@ -12,6 +12,7 @@ if (shoot_once) {
 			with (coll){
 				scr_wasHit()
 				hp -= other.damage
+				scr_knockback(knockback)
 			}
 		}
 	}

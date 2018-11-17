@@ -6,3 +6,4 @@ destX = x
 destY = y
 shoot_once = true
 range = 20 //number of times the bullet iterates
+knockback = 0.5
