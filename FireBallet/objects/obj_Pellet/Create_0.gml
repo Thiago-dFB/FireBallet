@@ -1,5 +1,5 @@
 event_inherited();
 
-range = 5
+range = 10
 minDmg = 5
 maxDmg = 15
