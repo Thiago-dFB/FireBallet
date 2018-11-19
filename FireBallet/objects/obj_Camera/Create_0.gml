@@ -9,3 +9,9 @@ destY = y
 followSp = 1; //1 >= n > 0
 
 snapToRoom = true;
+
+// ScreenShake
+shakeLength = 0;
+shakeMagnitude = 0;
+shakeRemain = 0;
+buff = 32;
