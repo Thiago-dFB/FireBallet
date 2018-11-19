@@ -1,3 +1,1 @@
-var base = other.minDmg
-var diff = other.maxDmg - base
-hp -= base + random(diff)
+hp -= random_range(other.minDmg, other.maxDmg)
