@@ -13,8 +13,9 @@ if (snapToRoom){
 }
 
 // ScreenShake
-x += random_range(-shakeRemain,shakeRemain);
-y += random_range(-shakeRemain,shakeRemain);
-shakeRemain = max(0,shakeRemain-((1/shakeLength)*shakeMagnitude));
+var currMagnitude = lerp(0, shakeMagnitude, shakeRemain)
+x += random_range(-currMagnitude,currMagnitude);
+y += random_range(-currMagnitude,currMagnitude);
+shakeRemain = max(0, shakeRemain-1/shakeLength)
 
 camera_set_view_pos(cam, x - viewHalfWid, y - viewHalfHei)

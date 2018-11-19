@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "43e57cfa-0f4e-4bbc-93a1-ab1720b18507",
+            "Value": {
+                "id": "6b01a9ac-8c1f-46b8-bdb8-1d172e133032",
+                "resourcePath": "views\\43e57cfa-0f4e-4bbc-93a1-ab1720b18507.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "440f5208-1883-49a4-9c93-8a7f9dc6b4d5",
             "Value": {
                 "id": "378ec9de-fc11-44b4-9df3-671654815b6e",
@@ -450,7 +458,7 @@
             "Key": "e0d8b4b7-8b39-4cb2-a1a2-ce2957db8661",
             "Value": {
                 "id": "7afeb19c-f297-46ef-807c-56d4e105e6d7",
-                "resourcePath": "scripts\\ScreenShake\\ScreenShake.yy",
+                "resourcePath": "scripts\\scr_screenshake\\scr_screenshake.yy",
                 "resourceType": "GMScript"
             }
         },

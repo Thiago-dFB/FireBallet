@@ -7,7 +7,7 @@ with (obj_Camera)
 	if (argument0 > shakeRemain)
 	{
 		shakeMagnitude = argument0;
-		shakeRemain= argument0;
 		shakeLength = argument1;
+		shakeRemain= 1;
 	}
 }
