@@ -8,6 +8,6 @@ with(camera){
 	follow = other.player
 }
 
-with (instance_create_layer(640,600,"Actors",obj_Enemy)){
+with (instance_create_layer(640,500,"Actors",obj_Rifleman)){
 	target = other.player
 }
