@@ -11,8 +11,6 @@ if (shoot_once) {
 			collided = true
 			with (coll){
 				scr_wasHit()
-				scr_damage()
-				scr_knockback(other.knockback)
 			}
 		}
 	}
