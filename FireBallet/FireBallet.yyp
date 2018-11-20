@@ -55,14 +55,6 @@
             }
         },
         {
-            "Key": "09a6a53d-a0bc-4222-8444-949548a202b1",
-            "Value": {
-                "id": "f66f70b1-dec9-40c3-80c9-1c1ebb743dba",
-                "resourcePath": "views\\09a6a53d-a0bc-4222-8444-949548a202b1.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "0b461a05-0278-433a-99a8-528ffa687b95",
             "Value": {
                 "id": "6a4517f7-dde0-4905-a173-84088b3444ad",
@@ -84,14 +76,6 @@
                 "id": "6aa8c038-0f6e-40b9-ab49-f8cef3d05983",
                 "resourcePath": "views\\0f638855-683d-436e-984d-d5745a9c8b97.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "11348dae-55ea-4480-a845-40ce4ff1080c",
-            "Value": {
-                "id": "8ab9136f-431d-4906-b51d-427c2e82ce6b",
-                "resourcePath": "scripts\\collision_line_first\\collision_line_first.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -543,6 +527,14 @@
             }
         },
         {
+            "Key": "f1e217b5-949a-42e3-b2d0-36fc36df9fa1",
+            "Value": {
+                "id": "8ec2f4f6-e6b3-4bd6-a63d-7a4a28fd114b",
+                "resourcePath": "objects\\obj_Rifle\\obj_Rifle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f5f19f63-26ab-4100-9765-7bf955f43ff2",
             "Value": {
                 "id": "58e48c6c-18e5-46b1-b5c2-be0a3e4d4361",
@@ -583,7 +575,6 @@
         "82e6714d-a1b7-4c5c-9ce9-662352275a19",
         "732a26b8-3860-43a2-92a5-485143935cb5",
         "ca70202b-450b-44cc-a607-b2c2867ee68a",
-        "11348dae-55ea-4480-a845-40ce4ff1080c",
         "e0d8b4b7-8b39-4cb2-a1a2-ce2957db8661"
     ],
     "tutorial": ""
