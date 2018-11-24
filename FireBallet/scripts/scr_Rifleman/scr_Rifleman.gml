@@ -19,15 +19,11 @@ switch state {
 		should_fire = true
 		alarm_set(0, room_speed * 0.1)
 		break
-	case 3: //charge begin
-		xAxis = 0
-		yAxis = 0
+	case 3: //bayonet charge
 		should_look = false
-		alarm_set(0, room_speed * 0.1)
-		break
-	case 4: //bayonet charge
 		melee = true
 		maxVel = 3
+		alarm_set(0, room_speed * 0.5)
 		scr_squareAxis(image_angle)
 		break
 }
