@@ -1,0 +1,1 @@
+draw_text_transformed_color(20,20,string(killcount),2,2,0,c_red,c_red,c_red,c_red,1)
