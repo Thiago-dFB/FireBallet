@@ -1,3 +1,5 @@
+killcount = 0
+
 player = instance_create_layer(640,640,"Actors",obj_Player)
 with(player){
 	input = 0
