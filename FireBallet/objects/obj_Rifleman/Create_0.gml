@@ -16,6 +16,7 @@ event_inherited()
 wielding = instance_create_layer(x,y,"Weapons",obj_Gun)
 maxVel = 1
 frict = 1
+hp = 30
 
 //State variable
 initAggro = 10

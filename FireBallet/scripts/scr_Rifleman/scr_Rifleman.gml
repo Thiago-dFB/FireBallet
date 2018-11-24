@@ -11,7 +11,7 @@ switch state {
 		yAxis = 0
 		should_look = false
 		showAim = true
-		alarm_set(0, room_speed * 1)
+		alarm_set(0, room_speed * 0.3)
 		break
 	case 2: //fire
 		should_fire = true

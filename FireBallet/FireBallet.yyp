@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "d194b45f-e143-4a39-aa4f-021948796446",
+            "Value": {
+                "id": "3f88adba-34cb-4b51-ac81-63e5b581d15c",
+                "resourcePath": "scripts\\scr_enemyKilled\\scr_enemyKilled.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d3925fd3-55e2-42c8-aedd-c229ef0ee5df",
             "Value": {
                 "id": "81d95d03-d9dd-4a21-8308-a935da0a572e",
@@ -623,6 +631,7 @@
         "82e6714d-a1b7-4c5c-9ce9-662352275a19",
         "732a26b8-3860-43a2-92a5-485143935cb5",
         "ca70202b-450b-44cc-a607-b2c2867ee68a",
+        "d194b45f-e143-4a39-aa4f-021948796446",
         "e0d8b4b7-8b39-4cb2-a1a2-ce2957db8661",
         "a95c3eeb-3efd-48e3-97be-507b98d531bb",
         "9dabb0a9-ce1d-462d-8d19-6113d44ecfd9"

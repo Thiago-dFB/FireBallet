@@ -1,5 +1,7 @@
-if (target != noone && should_look){
-	image_angle = point_direction(x,y,target.x,target.y)
+if (instance_exists(target) && should_look){
+	var tgtX = target.x
+	var tgtY = target.y
+	image_angle = point_direction(x,y,tgtX,tgtY)
 }
 
 event_inherited()

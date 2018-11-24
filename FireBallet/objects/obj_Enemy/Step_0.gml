@@ -1,6 +1,12 @@
 event_inherited();
 
-if (target == noone){
+if (inert) {
+	xAxis = 0
+	yAxis = 0
+	should_fire = false
+}
+
+if (!instance_exists(target)){
 	if (instance_number(obj_Player) > 0){
 		target = obj_Player
 		inert = false
@@ -12,12 +18,6 @@ if (target == noone){
 	}
 }
 
-if (inert) {
-	xAxis = 0
-	yAxis = 0
-	should_fire = false
-}
-
 if (hp <= 0){
-	instance_destroy()
+	
 }
