@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "c6626e32-9718-4179-8650-7e65393d29f7",
+            "Value": {
+                "id": "17114997-2594-461b-b85d-ac6db31a1466",
+                "resourcePath": "objects\\obj_Melee\\obj_Melee.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c784f490-c783-4641-ae27-de81f50b0823",
             "Value": {
                 "id": "dca8a4ed-e1d0-46a3-9e1f-76d533c0db0b",

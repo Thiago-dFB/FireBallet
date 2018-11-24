@@ -17,5 +17,7 @@ switch state {
 		state = 0
 		scr_Rifleman()
 		break
-
+	case 3: //end melee
+		state = 0
+		scr_Rifleman()
 }

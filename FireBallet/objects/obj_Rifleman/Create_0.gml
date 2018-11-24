@@ -19,7 +19,7 @@ frict = 1
 hp = 30
 
 //State variable
-initAggro = 10
+initAggro = 20
 aggro = initAggro
-aggroInc = 1
+aggroInc = 5
 showAim = false

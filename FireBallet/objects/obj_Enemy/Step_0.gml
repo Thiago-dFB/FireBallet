@@ -1,11 +1,13 @@
 event_inherited();
 
+//inert override
 if (inert) {
 	xAxis = 0
 	yAxis = 0
 	should_fire = false
 }
 
+//target reset
 if (!instance_exists(target)){
 	if (instance_number(obj_Player) > 0){
 		target = obj_Player
@@ -16,8 +18,4 @@ if (!instance_exists(target)){
 	} else {
 		inert = true
 	}
-}
-
-if (hp <= 0){
-	
 }
