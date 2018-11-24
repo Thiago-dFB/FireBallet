@@ -17,7 +17,13 @@ switch state {
 		state = 0
 		scr_Rifleman()
 		break
-	case 3: //end melee
-		state = 0
+	case 3: //end charge
+		state = 4
 		scr_Rifleman()
+		break
+	case 4: //end melee
+		state = 0
+		alarm_set(0, room_speed * 0.5)
+		scr_Rifleman()
+		break
 }

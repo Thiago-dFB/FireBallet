@@ -11,4 +11,3 @@ if (object_is_ancestor(object_index,obj_Enemy)){
 	//Player hit
 	hp -= random_range(other.minDmg, other.maxDmg)
 }
-
