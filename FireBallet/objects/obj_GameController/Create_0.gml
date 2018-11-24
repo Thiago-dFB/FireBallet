@@ -11,7 +11,3 @@ with(camera){
 }
 
 instance_create_layer(640,500,"Actors",obj_Rifleman)
-
-/*with (){
-	target = other.player
-}*/

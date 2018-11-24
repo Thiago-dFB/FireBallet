@@ -15,6 +15,3 @@
 event_inherited()
 wielding = instance_create_layer(x,y,"Weapons",obj_Gun)
 maxVel = 1
-
-state = 0
-scr_Rifleman()
