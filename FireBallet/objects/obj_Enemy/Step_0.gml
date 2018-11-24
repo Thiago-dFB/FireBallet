@@ -5,4 +5,5 @@ if (hp <= 0){
 		instance_destroy(wielding)
 	}
 	instance_destroy()
+	obj_Player.killcount++
 }
