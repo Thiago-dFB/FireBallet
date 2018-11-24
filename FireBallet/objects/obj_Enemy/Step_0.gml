@@ -19,9 +19,5 @@ if (inert) {
 }
 
 if (hp <= 0){
-	if (wielding != noone){
-		instance_destroy(wielding)
-	}
 	instance_destroy()
-	obj_GameController.killcount++
 }
