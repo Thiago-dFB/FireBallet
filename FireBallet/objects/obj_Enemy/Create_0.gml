@@ -14,4 +14,4 @@ target = noone
 should_look = true
 hp = 100
 
-inert = false
+inert = true
