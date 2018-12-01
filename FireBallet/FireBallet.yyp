@@ -215,14 +215,6 @@
             }
         },
         {
-            "Key": "563e2e08-ebf4-440b-9a1e-b01ba08c2eb8",
-            "Value": {
-                "id": "127d88fc-ae4a-43bf-bfce-b8c49492ab3e",
-                "resourcePath": "objects\\obj_Bayonet\\obj_Bayonet.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "5f80170d-7a7a-4dd4-b3af-6f535ebbaa7b",
             "Value": {
                 "id": "49adc14b-8756-403b-822f-9ddf7136136d",

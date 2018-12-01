@@ -1,7 +1,12 @@
 /// @description Behavior: Cycle end
 switch state {
+	case -1: //inert
+		break;
 	case 0: //end walk
-		if (random(aggro) > initAggro){
+		if (point_distance(x,y,target.x,target.y) < 100){
+			image_angle += 180
+			aggro += aggroInc
+		} else if (random(aggro) > initAggro){
 			aggro = initAggro
 			state = 1
 		} else {
@@ -14,10 +19,6 @@ switch state {
 		scr_Rifleman()
 		break
 	case 2: //end fire
-		state = 0
-		scr_Rifleman()
-		break
-	case 3: //bayonet charge
 		state = 0
 		scr_Rifleman()
 		break

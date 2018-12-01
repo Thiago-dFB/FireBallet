@@ -1,4 +1,8 @@
 switch state {
+	case -1: //inert
+		xAxis = 0
+		yAxis = 0
+		should_fire = 0
 	case 0: //walk
 		should_look = true
 		should_fire = false
@@ -18,12 +22,5 @@ switch state {
 	case 2: //fire
 		should_fire = true
 		alarm_set(0, room_speed * 0.1)
-		break
-	case 3: //bayonet charge
-		should_look = false
-		melee = true
-		maxVel = 3
-		alarm_set(0, room_speed * 0.5)
-		scr_squareAxis(image_angle)
 		break
 }
