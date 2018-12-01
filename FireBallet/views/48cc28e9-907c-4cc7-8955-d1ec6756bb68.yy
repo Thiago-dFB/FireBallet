@@ -11,7 +11,8 @@
         "b579f7fc-5010-4fee-9297-a1852fff13ba",
         "99348b86-5693-4842-a300-1060c61b2cf2",
         "c0688a64-99c8-4a34-af5b-f8530593236a",
-        "5f80170d-7a7a-4dd4-b3af-6f535ebbaa7b"
+        "5f80170d-7a7a-4dd4-b3af-6f535ebbaa7b",
+        "70d1c54b-ff77-47e7-a78a-0b342d8ec8dc"
     ],
     "filterType": "GMSprite",
     "folderName": "Placeholders",

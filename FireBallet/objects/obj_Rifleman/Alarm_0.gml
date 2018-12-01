@@ -1,0 +1,25 @@
+/// @description Behavior: Cycle end
+switch state {
+	case -1: //inert
+		break;
+	case 0: //end walk
+		if (point_distance(x,y,target.x,target.y) < 100){
+			image_angle += 180
+			aggro += aggroInc
+		} else if (random(aggro) > initAggro){
+			aggro = initAggro
+			state = 1
+		} else {
+			aggro += aggroInc
+		}
+		scr_Rifleman()
+		break
+	case 1: //end aim
+		state = 2
+		scr_Rifleman()
+		break
+	case 2: //end fire
+		state = 0
+		scr_Rifleman()
+		break
+}

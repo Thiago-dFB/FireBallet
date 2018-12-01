@@ -13,4 +13,15 @@
 //	should_look
 //	hp
 event_inherited()
-wielding = instance_create_layer(x,y,"Weapons",obj_Gun)
+wielding = instance_create_layer(x,y,"Weapons",obj_Rifle)
+maxVel = 1
+frict = 1
+hp = 30
+
+//State variable
+initAggro = 20
+aggro = initAggro
+aggroInc = 5
+showAim = false
+
+state = 0
