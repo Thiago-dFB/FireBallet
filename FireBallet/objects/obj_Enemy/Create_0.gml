@@ -13,7 +13,10 @@ event_inherited()
 target = noone
 should_look = true
 hp = 100
-
-state = -1 //inert
 met_stateAction = scr_Enemy
 met_stateTransition = noone
+
+state = -1 //inert
+
+camWeight = 0
+camLerpT = 1

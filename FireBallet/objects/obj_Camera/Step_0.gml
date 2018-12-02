@@ -1,8 +1,18 @@
 //Destination
+var sumX=0, sumY=0, ratio=0
 if (instance_exists(follow)){
-	destX = follow.x
-	destY = follow.y
+	sumX += follow.x*10
+	sumY += follow.y*10
+	ratio += 10
+	with(obj_Enemy){
+		sumX += x*camWeight
+		sumY += y*camWeight
+		ratio += camWeight
+		camWeight = lerp(camWeight,1,camLerpT)
+	}
 }
+destX = sumX/ratio
+destY = sumY/ratio
 
 x += (destX - x) * followSp
 y += (destY - y) * followSp
