@@ -12,6 +12,7 @@
 //	target
 //	should_look
 //	hp
+//	corpse
 //	met_stateAction
 //	met_stateTransition
 event_inherited()
@@ -21,6 +22,7 @@ frict = 1
 hp = 20
 met_stateAction = scr_Rifleman
 met_stateTransition = scr_Rifleman_trans
+corpse = obj_RiflemanCorpse
 
 //State variables
 initAggro = 20

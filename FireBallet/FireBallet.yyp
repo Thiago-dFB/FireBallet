@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "6872d0ac-144a-4f32-ba92-ee08b2ecc5bf",
+            "Value": {
+                "id": "da55938e-fe33-465d-8c3d-23cde1f84c87",
+                "resourcePath": "objects\\obj_RiflemanCorpse\\obj_RiflemanCorpse.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6b55f49f-fa6c-41c0-ac15-3460eb970ee9",
             "Value": {
                 "id": "39b48a6a-ebd2-48e9-943a-0e81615f8864",
@@ -319,6 +327,14 @@
             }
         },
         {
+            "Key": "866a17f0-8943-4bff-ae37-8ae1675a4381",
+            "Value": {
+                "id": "e6e9cf31-1d4d-4c59-a218-0c2e64c1ae5c",
+                "resourcePath": "sprites\\spr_Rifleman_Corpse_PH\\spr_Rifleman_Corpse_PH.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "868081fb-ce4d-4dd4-9c53-0efbf371d735",
             "Value": {
                 "id": "90f2ce61-0c1b-4fbf-b842-1fb2c3c4b852",
@@ -343,6 +359,14 @@
             }
         },
         {
+            "Key": "96c133c7-9b7e-4ecb-989a-1d586930326a",
+            "Value": {
+                "id": "5ba63024-0772-491e-9e6b-1d62ec271ef5",
+                "resourcePath": "scripts\\scr_createCorpse\\scr_createCorpse.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "99348b86-5693-4842-a300-1060c61b2cf2",
             "Value": {
                 "id": "e5da6272-7f64-49ab-989e-d18fc4dd4f20",
@@ -356,6 +380,14 @@
                 "id": "20056124-d81b-48ce-abf4-fe9840e4c95b",
                 "resourcePath": "scripts\\scr_squareAxis\\scr_squareAxis.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9f22f749-7d65-4f10-bb87-34e31aba9abc",
+            "Value": {
+                "id": "62ec5cd3-5b2e-472c-9d6c-966750226f73",
+                "resourcePath": "objects\\obj_Corpse\\obj_Corpse.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -379,6 +411,14 @@
             "Value": {
                 "id": "b54f2827-08c6-4405-a50b-20ba3d2fda60",
                 "resourcePath": "views\\a19390d8-43cf-4f86-8d02-5ba83bc47a15.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a20c0b3f-c5b2-48cd-8343-eaa56e94573e",
+            "Value": {
+                "id": "e3198b51-2d5e-472a-a514-a01fd96fbe31",
+                "resourcePath": "views\\a20c0b3f-c5b2-48cd-8343-eaa56e94573e.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -559,6 +599,14 @@
             }
         },
         {
+            "Key": "dcdedbeb-ed72-4870-9773-12fc69b30db2",
+            "Value": {
+                "id": "17630904-a0f4-417a-8226-32aaf5af670e",
+                "resourcePath": "objects\\obj_PlayerCorpse\\obj_PlayerCorpse.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dcea9e37-5ce7-435d-890c-6bec241206ae",
             "Value": {
                 "id": "d047ae3c-df4b-4a68-af25-caadb051cb59",
@@ -580,6 +628,14 @@
                 "id": "1ce10870-92a9-44cc-bc1f-ee7476bdc29d",
                 "resourcePath": "scripts\\scr_Rifleman_trans\\scr_Rifleman_trans.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e0ce1e6e-5594-40a7-a0ac-929a16ba4ff4",
+            "Value": {
+                "id": "4f7e78c6-2eb7-4588-8b20-7bb848a61281",
+                "resourcePath": "sprites\\spr_Player_Corpse_PH\\spr_Player_Corpse_PH.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -711,6 +767,7 @@
         "a95c3eeb-3efd-48e3-97be-507b98d531bb",
         "def5e982-9cb8-42b3-96c4-8587c58bedd0",
         "9dabb0a9-ce1d-462d-8d19-6113d44ecfd9",
+        "96c133c7-9b7e-4ecb-989a-1d586930326a",
         "b30a2db6-5531-483c-8199-cb94b9763783"
     ],
     "tutorial": ""
