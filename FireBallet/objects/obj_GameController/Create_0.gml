@@ -12,7 +12,7 @@ with(camera){
 }
 
 interval = 5*room_speed //3 seconds to start
-lerpFactor = 0.1
+lerpFactor = 0.05
 minInt = 1*room_speed
 
 alarm_set(0, interval)
