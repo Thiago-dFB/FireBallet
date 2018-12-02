@@ -27,3 +27,4 @@ initAggro = 20
 aggro = initAggro
 aggroInc = 5
 showAim = false
+aimColorCycle = 0
