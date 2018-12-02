@@ -14,4 +14,6 @@ target = noone
 should_look = true
 hp = 100
 
-inert = true
+state = -1 //inert
+met_stateAction = scr_Enemy
+met_stateTransition = noone

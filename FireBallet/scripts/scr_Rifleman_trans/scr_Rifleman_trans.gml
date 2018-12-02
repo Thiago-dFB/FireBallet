@@ -1,4 +1,3 @@
-/// @description Behavior: Cycle end
 switch state {
 	case -1: //inert
 		break;
@@ -12,14 +11,14 @@ switch state {
 		} else {
 			aggro += aggroInc
 		}
-		scr_Rifleman()
+		script_execute(met_stateAction)
 		break
 	case 1: //end aim
 		state = 2
-		scr_Rifleman()
+		script_execute(met_stateAction)
 		break
 	case 2: //end fire
 		state = 0
-		scr_Rifleman()
+		script_execute(met_stateAction)
 		break
 }

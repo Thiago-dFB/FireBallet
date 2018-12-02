@@ -12,16 +12,18 @@
 //	target
 //	should_look
 //	hp
+//	met_stateAction
+//	met_stateTransition
 event_inherited()
 wielding = instance_create_layer(x,y,"Weapons",obj_Rifle)
 maxVel = 1
 frict = 1
 hp = 30
+met_stateAction = scr_Rifleman
+met_stateTransition = scr_Rifleman_trans
 
-//State variable
+//State variables
 initAggro = 20
 aggro = initAggro
 aggroInc = 5
 showAim = false
-
-state = 0
