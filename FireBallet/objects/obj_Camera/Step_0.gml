@@ -10,12 +10,13 @@ if (instance_exists(follow)){
 		ratio += camWeight
 		camWeight = lerp(camWeight,1,camLerpT)
 	}
+	destX = sumX/ratio
+	destY = sumY/ratio
 }
-destX = sumX/ratio
-destY = sumY/ratio
 
-x += (destX - x) * followSp
-y += (destY - y) * followSp
+
+x = lerp (x, destX, followSp)
+y = lerp (y, destY, followSp)
 
 if (snapToRoom){
 	x = clamp (x, viewHalfWid+buff, room_width-viewHalfWid-buff)

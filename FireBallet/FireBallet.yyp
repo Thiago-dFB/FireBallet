@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "a0387b8c-fb83-45fc-89b3-b3ee599e9ad5",
+            "Value": {
+                "id": "98ecf534-21e0-47f0-bc06-39095c6becf2",
+                "resourcePath": "scripts\\scr_playerKilled\\scr_playerKilled.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a0e69333-be57-446d-80d8-4e6cda27a053",
             "Value": {
                 "id": "381cf7e4-9a88-4048-8798-1f1fc7895ef1",
@@ -697,6 +705,7 @@
         "732a26b8-3860-43a2-92a5-485143935cb5",
         "ca70202b-450b-44cc-a607-b2c2867ee68a",
         "d194b45f-e143-4a39-aa4f-021948796446",
+        "a0387b8c-fb83-45fc-89b3-b3ee599e9ad5",
         "e0d8b4b7-8b39-4cb2-a1a2-ce2957db8661",
         "aa6d85a1-809d-409b-a2bf-f3e8a3a0f9cb",
         "a95c3eeb-3efd-48e3-97be-507b98d531bb",

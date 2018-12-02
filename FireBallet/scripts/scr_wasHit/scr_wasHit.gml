@@ -9,5 +9,6 @@ if (object_is_ancestor(object_index,obj_Enemy)){
 	if (hp <= 0) scr_enemyKilled()
 } else {
 	//Player hit
-	hp -= random_range(other.minDmg, other.maxDmg)
+	if (!god) hp -= random_range(other.minDmg, other.maxDmg)
+	if (hp <= 0) scr_playerKilled()
 }

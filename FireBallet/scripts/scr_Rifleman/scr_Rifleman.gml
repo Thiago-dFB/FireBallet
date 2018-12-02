@@ -5,6 +5,7 @@ switch state {
 		should_look = false
 		should_fire = false
 		showAim = false
+		break
 	case 0: //walk
 		should_look = true
 		should_fire = false

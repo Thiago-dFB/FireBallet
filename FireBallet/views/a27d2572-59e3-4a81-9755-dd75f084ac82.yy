@@ -6,7 +6,8 @@
     "children": [
         "732a26b8-3860-43a2-92a5-485143935cb5",
         "ca70202b-450b-44cc-a607-b2c2867ee68a",
-        "d194b45f-e143-4a39-aa4f-021948796446"
+        "d194b45f-e143-4a39-aa4f-021948796446",
+        "a0387b8c-fb83-45fc-89b3-b3ee599e9ad5"
     ],
     "filterType": "GMScript",
     "folderName": "Hit",
