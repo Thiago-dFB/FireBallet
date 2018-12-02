@@ -7,4 +7,4 @@
 //	met_fire
 event_inherited();
 firerate = 60
-firepower = obj_Hitscan
+firepower = obj_RifleRound
