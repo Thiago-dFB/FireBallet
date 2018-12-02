@@ -2,13 +2,11 @@ switch state {
 	case -1: //inert
 		break;
 	case 0: //end walk
-		if (point_distance(x,y,target.x,target.y) < 100){
-			image_angle += 180
-			aggro += aggroInc
-		} else if (random(aggro) > initAggro){
+		if (random(aggro) > initAggro){
 			aggro = initAggro
 			state = 1
 		} else {
+			if (point_distance(x,y,target.x,target.y) < 100) image_angle += 180
 			aggro += aggroInc
 		}
 		script_execute(met_stateAction)
