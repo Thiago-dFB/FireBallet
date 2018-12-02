@@ -3,7 +3,8 @@
 //	cooldown
 //	offset_dist
 //	firepower
-//	proj_dir
+//	met_projDir
+//	met_fire
 event_inherited();
 firerate = 60
 firepower = obj_Hitscan

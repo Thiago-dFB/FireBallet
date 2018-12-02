@@ -5,16 +5,6 @@
     "name": "obj_DispersalGun",
     "eventList": [
         {
-            "id": "21cb4210-9fd6-4a44-a6cc-bdc902261436",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 3,
-            "m_owner": "a90c7338-69c9-44c5-aa27-1c35f922cd2d"
-        },
-        {
             "id": "47925679-58ca-45e6-bee0-154de8b0fb4b",
             "modelName": "GMEvent",
             "mvc": "1.0",
