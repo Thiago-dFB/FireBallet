@@ -46,6 +46,6 @@ if (wielding != noone){
 	}
 	//Should fire
 	if (should_fire) {
-		with (wielding) scr_autoFiring(other)
+		with (wielding) script_execute(met_fire, other)
 	}
 }
