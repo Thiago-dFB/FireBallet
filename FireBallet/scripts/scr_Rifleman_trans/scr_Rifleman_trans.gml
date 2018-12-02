@@ -5,7 +5,7 @@ switch state {
 		if (random(aggro) > initAggro){
 			aggro = initAggro
 			state = 1
-		} else {
+		} else if (instance_exists(target)) {
 			if (point_distance(x,y,target.x,target.y) < 100) image_angle += 180
 			aggro += aggroInc
 		}
