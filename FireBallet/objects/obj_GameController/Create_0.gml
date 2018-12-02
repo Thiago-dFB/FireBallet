@@ -8,9 +8,11 @@ with(player){
 camera = instance_create_layer(0,0,"Controllers",obj_Camera)
 with(camera){
 	follow = other.player
+	camera_set_view_pos(cam, follow.x - viewHalfWid, follow.y - viewHalfHei)
 }
 
-instance_create_layer(640,540,"Actors",obj_Rifleman)
-instance_create_layer(540,640,"Actors",obj_Rifleman)
-instance_create_layer(640,740,"Actors",obj_Rifleman)
-instance_create_layer(740,640,"Actors",obj_Rifleman)
+interval = 5*room_speed //3 seconds to start
+lerpFactor = 0.1
+minInt = 1*room_speed
+
+alarm_set(0, interval)
