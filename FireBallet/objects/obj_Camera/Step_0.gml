@@ -18,9 +18,9 @@ if (instance_exists(follow)){
 x = lerp (x, destX, followSp)
 y = lerp (y, destY, followSp)
 
-if (snapToRoom){
-	x = clamp (x, viewHalfWid+buff, room_width-viewHalfWid-buff)
-	y = clamp (y, viewHalfHei+buff, room_height-viewHalfHei-buff)
+if (snapToPlayer && instance_exists(follow)){
+	x = clamp (x, follow.x-viewHalfWid+buff, follow.x+viewHalfWid-buff)
+	y = clamp (y, follow.y-viewHalfHei+buff, follow.y+viewHalfHei-buff)
 }
 
 // ScreenShake

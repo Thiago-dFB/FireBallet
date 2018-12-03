@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1ca84949-d788-4dd6-9ed1-0149885f1220",
+            "Value": {
+                "id": "199a460c-20d1-4213-8195-1c2fb59648e7",
+                "resourcePath": "scripts\\scr_edgeLoop\\scr_edgeLoop.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "203f80cc-3332-4493-be31-2b13edd1d85b",
             "Value": {
                 "id": "7115a03b-c78b-467d-8b1c-7e619517535a",
@@ -763,6 +771,7 @@
         "d194b45f-e143-4a39-aa4f-021948796446",
         "a0387b8c-fb83-45fc-89b3-b3ee599e9ad5",
         "e0d8b4b7-8b39-4cb2-a1a2-ce2957db8661",
+        "1ca84949-d788-4dd6-9ed1-0149885f1220",
         "aa6d85a1-809d-409b-a2bf-f3e8a3a0f9cb",
         "a95c3eeb-3efd-48e3-97be-507b98d531bb",
         "def5e982-9cb8-42b3-96c4-8587c58bedd0",

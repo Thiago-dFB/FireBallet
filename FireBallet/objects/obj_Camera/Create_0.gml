@@ -6,9 +6,9 @@ viewHalfHei = camera_get_view_height(cam) / 2
 destX = x
 destY = y
 
-followSp = 0.5; //1 >= n > 0
+followSp = 1; //1 >= n > 0
 
-snapToRoom = true;
+snapToPlayer = true;
 
 // ScreenShake
 shakeLength = 0;

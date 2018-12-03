@@ -16,3 +16,7 @@ axisTest = false
 hp = 100
 
 god = false
+
+originX = x
+originY = y
+buffer = 32

@@ -21,5 +21,13 @@ if (mouse_check_button(mb_left)){
 	should_fire = false
 }
 
-//Room restart
-if (keyboard_check(ord("R"))) game_restart()
+//infinite room
+if (x < originX-buffer){
+	scr_edgeLoop(buffer,0)
+} else if (x > originX+buffer){
+	scr_edgeLoop(-buffer,0)
+} else if (y < originY-buffer){
+	scr_edgeLoop(0,buffer)
+} else if (y > originY+buffer){
+	scr_edgeLoop(0,-buffer)
+}
