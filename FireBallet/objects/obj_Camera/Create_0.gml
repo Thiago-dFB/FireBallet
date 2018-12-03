@@ -6,7 +6,7 @@ viewHalfHei = camera_get_view_height(cam) / 2
 destX = x
 destY = y
 
-followSp = 1; //1 >= n > 0
+followSp = 0.5; //1 >= n > 0
 
 snapToPlayer = true;
 

@@ -7,3 +7,7 @@ with (obj_Bullet){
 	x += argument0
 	y += argument1
 }
+with (obj_Camera){
+	x += argument0
+	y += argument1
+}
