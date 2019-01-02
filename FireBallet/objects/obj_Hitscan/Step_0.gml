@@ -1,15 +1,14 @@
-var collided = false
-while (range > 0 && !collided) {
-	x = destX
-	y = destY
-	destX = x + lengthdir_x(50,direction)
-	destY = y + lengthdir_y(50,direction)
-	var coll = collision_line(x,y,destX,destY,obj_Actor,false,false)
+if (fire_once) {
+	var hitmap = ray_cast([x,y],direction,obj_Actor,true,true,1000)
+	var coll = ds_map_find_value(hitmap, "object")
+	var dest = ds_map_find_value(hitmap, "hitPosition")
+	destX = dest[0]
+	destY = dest[1]
+	ds_map_destroy(hitmap)
 	if (coll != noone){
 		with (coll){
 			scr_wasHit()
 		}
-		collided = true
 	}
-	range--
+	fire_once = false
 }
