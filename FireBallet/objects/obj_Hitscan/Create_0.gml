@@ -14,4 +14,5 @@ range = 20 //number of times the bullet iterates
 
 destX = x
 destY = y
-shoot_once = true
+
+fire_once = true
