@@ -263,14 +263,6 @@
             }
         },
         {
-            "Key": "64ce492d-7cc3-413d-865d-668ee1e3d84e",
-            "Value": {
-                "id": "a9afcf3d-2b9f-419f-b271-41442b9ccaa4",
-                "resourcePath": "views\\64ce492d-7cc3-413d-865d-668ee1e3d84e.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "6872d0ac-144a-4f32-ba92-ee08b2ecc5bf",
             "Value": {
                 "id": "da55938e-fe33-465d-8c3d-23cde1f84c87",
@@ -343,14 +335,6 @@
             }
         },
         {
-            "Key": "8632ffc1-eaf2-42a1-88af-ac315e55f960",
-            "Value": {
-                "id": "a74c4b4f-074e-4af1-a99e-8c0db87460af",
-                "resourcePath": "objects\\obj_RoyaleRing\\obj_RoyaleRing.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "866a17f0-8943-4bff-ae37-8ae1675a4381",
             "Value": {
                 "id": "e6e9cf31-1d4d-4c59-a218-0c2e64c1ae5c",
@@ -396,14 +380,6 @@
                 "id": "e5da6272-7f64-49ab-989e-d18fc4dd4f20",
                 "resourcePath": "sprites\\spr_Shotgun_PH\\spr_Shotgun_PH.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "9942b870-16ab-44a7-a52a-94f0fb8142d6",
-            "Value": {
-                "id": "09b77b0b-3d32-4466-a1a0-388bacbd44bc",
-                "resourcePath": "views\\9942b870-16ab-44a7-a52a-94f0fb8142d6.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -460,14 +436,6 @@
                 "id": "05a5dda7-1b0f-48b5-ae3a-cc3c393c9326",
                 "resourcePath": "views\\a27d2572-59e3-4a81-9755-dd75f084ac82.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "a46f60df-eb84-4dab-91ca-55a66981c3f9",
-            "Value": {
-                "id": "270234b2-0e1b-4276-b4fe-a43ec60f864e",
-                "resourcePath": "scripts\\scr_newShrink\\scr_newShrink.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -735,14 +703,6 @@
             }
         },
         {
-            "Key": "e92b5bcb-ed79-4dd6-b495-827341620263",
-            "Value": {
-                "id": "ea765618-51cc-428f-96f5-515ae08acf1c",
-                "resourcePath": "scripts\\ray_cast\\ray_cast.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "eecf49fd-4263-4d08-905b-4374bda8ffad",
             "Value": {
                 "id": "0e54b1f5-5a60-49ab-99df-eff790ff411e",
@@ -817,9 +777,7 @@
         "def5e982-9cb8-42b3-96c4-8587c58bedd0",
         "9dabb0a9-ce1d-462d-8d19-6113d44ecfd9",
         "96c133c7-9b7e-4ecb-989a-1d586930326a",
-        "b30a2db6-5531-483c-8199-cb94b9763783",
-        "e92b5bcb-ed79-4dd6-b495-827341620263",
-        "a46f60df-eb84-4dab-91ca-55a66981c3f9"
+        "b30a2db6-5531-483c-8199-cb94b9763783"
     ],
     "tutorial": ""
 }

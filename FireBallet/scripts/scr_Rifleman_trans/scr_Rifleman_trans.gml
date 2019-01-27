@@ -1,6 +1,5 @@
 switch state {
 	case -1: //inert
-		script_execute(met_stateAction)
 		break;
 	case 0: //end walk
 		if (random(aggro) > initAggro){
