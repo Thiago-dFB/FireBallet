@@ -21,8 +21,13 @@
     "option_linux_sync": false,
     "option_linux_texture_page": "2048x2048",
     "option_linux_version": {
+<<<<<<< Updated upstream
         "build": 0,
         "major": 1,
+=======
+        "build": 2,
+        "major": 0,
+>>>>>>> Stashed changes
         "minor": 0,
         "revision": 0
     }
