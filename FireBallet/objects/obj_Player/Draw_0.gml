@@ -6,8 +6,10 @@ if (hp > 50) {
 } else {
 	draw_set_color(c_red)
 }
-draw_text(x-10,y+30,hp)
-draw_set_color(c_white)
+draw_set_font(font_hp)
+draw_set_halign(fa_center)
+draw_set_valign(fa_center)
+draw_text(x,y+30,hp)
 var aimDist = 900
 draw_line_color(
 	x, y,
