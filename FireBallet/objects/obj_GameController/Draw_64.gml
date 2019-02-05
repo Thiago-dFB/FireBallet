@@ -1,1 +1,5 @@
-draw_text_transformed_color(20,20,string(killcount),2,2,0,c_red,c_red,c_red,c_red,1)
+draw_set_color(c_red)
+draw_set_font(font_score)
+draw_set_halign(fa_left)
+draw_set_valign(fa_top)
+draw_text(20,20,string(killcount))
