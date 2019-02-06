@@ -20,3 +20,8 @@ god = false
 originX = x
 originY = y
 buffer = 32
+
+aimX = 0.1
+aimY = 0.1
+aimXdest = 0.1
+aimYdest = 0.1
