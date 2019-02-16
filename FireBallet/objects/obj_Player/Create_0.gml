@@ -25,3 +25,7 @@ aimX = 0.1
 aimY = 0.1
 aimXdest = 0.1
 aimYdest = 0.1
+
+dash = 120
+dashMax = 120
+dashCost = 60

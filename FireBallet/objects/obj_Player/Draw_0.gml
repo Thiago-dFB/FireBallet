@@ -13,6 +13,11 @@ shader_set_uniform_f(angle_unif, (pi*hp/50)-pi)
 draw_sprite(spr_ring, 0, x, y)
 shader_reset()
 
+draw_set_color(c_yellow)
+draw_rectangle(x-60, y+32, x-60+dash, y+36, false)
+draw_set_color(c_black)
+draw_line(x, y+30, x, y+38)
+
 draw_set_color(c_blue)
 var aimDist = 900
 var squaresize = 5

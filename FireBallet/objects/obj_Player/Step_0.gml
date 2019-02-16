@@ -31,3 +31,13 @@ if (x < originX-buffer){
 } else if (y > originY+buffer){
 	scr_edgeLoop(0,-buffer)
 }
+
+dash++
+dash = min(dash, dashMax)
+
+if (keyboard_check_pressed(vk_space) && dash > dashCost){
+	var dir = point_direction(0,0,xAxis,yAxis)
+	xVel = lengthdir_x(maxVel*2, dir)
+	yVel = lengthdir_y(maxVel*2, dir)
+	dash -= dashCost
+}
