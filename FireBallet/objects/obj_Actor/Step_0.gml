@@ -1,1 +1,1 @@
-wasHit--
+wasHit = lerp(wasHit, 0, 0.1)
