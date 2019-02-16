@@ -7,3 +7,5 @@ menu_itemheight = font_get_size(font_general)
 
 menu_items[1] = "[E]nter the arena"
 menu_items[0] = "[Q]uit"
+
+window_set_cursor(cr_none)
