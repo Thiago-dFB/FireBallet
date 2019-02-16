@@ -1,15 +1,17 @@
+var angle_unif = shader_get_uniform(shd_health,"healthTan")
+var color_unif = shader_get_uniform(shd_health,"healthColor")
 event_inherited()
+shader_set(shd_health)
 if (hp > 50) {
-	draw_set_color(c_green)
+	shader_set_uniform_f(color_unif, 0.0, 1.0, 0.0)
 } else if (hp <= 50 && hp > 20) {
-	draw_set_color(c_yellow)
+	shader_set_uniform_f(color_unif, 1.0, 1.0, 0.0)
 } else {
-	draw_set_color(c_red)
+	shader_set_uniform_f(color_unif, 1.0, 0.0, 0.0)
 }
-draw_set_font(font_hp)
-draw_set_halign(fa_center)
-draw_set_valign(fa_center)
-draw_text(x,y+30,hp)
+shader_set_uniform_f(angle_unif, (pi*hp/50)-pi)
+draw_sprite(spr_ring, 0, x, y)
+shader_reset()
 
 draw_set_color(c_blue)
 var aimDist = 900
