@@ -31,4 +31,4 @@ OS: Windows 8/10/11
 ## ABOUT THE PROJECT
 
 - This project was made in GameMaker Studio 2.2.4, and has issues opening in newer versions of the software. I'm not entirely sure by which means this version is still attainable.
-- The only third-party script present is located at "project\scripts\ray_cast\ray_cast.gml", which was sourced from here: https://marketplace.gamemaker.io/assets/5161/raycast
+- The only third-party script present is located at "FireBallet\scripts\ray_cast\ray_cast.gml", which was sourced from here: https://marketplace.gamemaker.io/assets/5161/raycast
